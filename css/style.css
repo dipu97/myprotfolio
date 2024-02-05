@@ -4,6 +4,7 @@
 .text-primary{
     color: #FD6E0A;
 }
+/* Navbar Styles */
 nav{
     display: flex;
     align-items: center;
@@ -31,4 +32,16 @@ nav a{
     background-color: #FD6E0A;
     color: whitesmoke;
     padding: 15px 35px;
+}
+/* banner style */
+.header{
+
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
 }
