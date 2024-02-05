@@ -1,6 +1,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    margin: 20px;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -35,13 +38,44 @@ nav a{
 }
 /* banner style */
 .header{
-
+background-color: aliceblue;
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
 }
 .banner{
     display: flex;
-    padding: 30px 30px 30px 150px;
+    gap: 40px;
+    padding: 30px 30px 0 150px;
+    justify-content: space-between;
     align-items: center;
+}
+.banner-content{
+    width: 500px;
 }
 .banner .profile{
     width: 500px;
+}
+.greetings{
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-heading{
+    font-size: 84px;
+    font-weight: 700;
+}
+.about{
+    background-color: bisque;
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px ;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.section-desc{
+    text-align: center;
 }
